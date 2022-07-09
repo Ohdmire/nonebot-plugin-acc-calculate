@@ -1,2 +1,2 @@
-# nonebot_plugin_acc_calculate
+# nonebot-plugin-acc-calculate
 malodyv3段位计算单曲acc
