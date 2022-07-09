@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "nonebot_plugin_acc_calculate"
+version = "0.1.0"
+description = "Nonebot2 段位单曲acc计算"
+authors = ["10-24 <1750011571@qq.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/10-24/nonebot-plugin-acc-calculate"
+repository = "https://github.com/10-24/nonebot-plugin-acc-calculate"
+
+[tool.poetry.dependencies]
+python = "^3.7.3"
+nonebot2 = "^2.0.0-beta.4"
+nonebot-adapter-onebot = "^2.0.0-beta.1"
+
+[tool.poetry.dev-dependencies]
+nb-cli = "^0.6.0"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
