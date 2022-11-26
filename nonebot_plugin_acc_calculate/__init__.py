@@ -1,6 +1,5 @@
 from nonebot.adapters.onebot.v11 import MessageEvent
 from nonebot.params import ArgStr
-from nonebot.log import logger
 from nonebot import on_command
 from .data_source import calculate_acc
 
@@ -17,7 +16,6 @@ async def _(event: MessageEvent,t=ArgStr("t"),accs=ArgStr("accs")):
         acc3=str(result[2])[:5]
         acc4=str(result[3])[:5]
     except Exception as e:
-        logger.error("acc计算错误{}".format(e))
         await malody.finish("失败，输入参数有误或不存在")
     await malody.finish("您的第一首acc是:{}%\n您的第二首acc是:{}%\n您的第三首acc是:{}%\n您的第四首acc是:{}%".format(acc1,acc2,acc3,acc4),at_sender=True)
 
