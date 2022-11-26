@@ -3,7 +3,7 @@ from nonebot.params import ArgStr
 from nonebot import on_command
 from .data_source import calculate_acc
 
-malody = on_command('acc', aliases={'malody', 'acc计算', '单曲acc计算'})
+malody = on_command('acc')
 
 @malody.got("t", prompt='请输入要查询的段位如:ex2 regular1')
 @malody.got('accs', prompt='请按顺序输入acc如：99.26-98.63-97.32-96.11')
