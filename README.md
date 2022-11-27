@@ -7,4 +7,3 @@ malody段位计算单曲acc
 ## 关于
 目前支持malody v2 v3段位
 reform段位
-
