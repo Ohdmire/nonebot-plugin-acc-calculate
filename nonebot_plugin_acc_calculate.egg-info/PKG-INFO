@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-acc-calculate
+Version: 0.3.2
+Summary: Nonebot2 段位单曲acc计算
+Home-page: https://github.com/ohdmire/nonebot-plugin-acc-calculate
+Author: ohdmire
+Author-email: 1750011571@qq.com
+Project-URL: Bug Tracker, https://github.com/ohdmire/nonebot-plugin-acc-calculate/issues
+Requires-Python: >=3.8,<4.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nonebot-plugin-acc-calculate
+malody段位计算单曲acc
+## 使用方式
+聊天框输入  
+`/acc`  
+然后按步骤提供信息
+## 关于
+目前支持malody v2 v3段位
+reform段位
