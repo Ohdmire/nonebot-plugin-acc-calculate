@@ -6,7 +6,7 @@ with open("README.md", "r",encoding="UTF-8") as f:
 
 setuptools.setup(
     name="nonebot-plugin-acc-calculate",
-    version="0.3.2",
+    version="1.0.0",
     author="ohdmire",
     author_email="1750011571@qq.com",
     description="Nonebot2 段位单曲acc计算",
